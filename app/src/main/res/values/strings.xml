@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">jeastgaa-FoodBook</string>
+    <string name="app_welcome">Welcome to the Food Bank</string>
+    <string name="food_table_title">Current Food In Inventory</string>
+    <string name="signature">Created By: Joshua Eastgaard</string>
+    <string name="new_food">new_food</string>
+    <string name="add_instructions">Fill out fields below to add a new food</string>
+    <string-array name="locations">
+        <item>Fridge</item>
+        <item>Pantry</item>
+        <item>Freezer</item>
+    </string-array>
+    <string name="edit_food">edit</string>
+    <string name="food_object">foodObj</string>
+    <string name="del_food">Delete Food Item</string>
+</resources>

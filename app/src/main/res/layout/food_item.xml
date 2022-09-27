@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/food_item_each"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:longClickable="true"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/app_theme" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10sp"
+        android:paddingVertical="10sp">
+
+        <TextView
+            android:id="@+id/stored_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10sp"
+            android:text="Name:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="70sp" />
+
+        <TextView
+            android:id="@+id/stored_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5sp"
+            android:text="Count:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_count"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/stored_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5sp"
+            android:text="Location:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10sp"
+        android:paddingVertical="10sp">
+
+        <TextView
+            android:id="@+id/stored_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10sp"
+            android:text="Description:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10sp"
+        android:paddingVertical="10sp">
+
+        <TextView
+            android:id="@+id/stored_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="Cost:  $"
+            android:textAlignment="textEnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp" />
+
+        <TextView
+            android:id="@+id/stored_exp_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10sp"
+            android:text="Expirary Date:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/app_theme" />
+
+</LinearLayout>
